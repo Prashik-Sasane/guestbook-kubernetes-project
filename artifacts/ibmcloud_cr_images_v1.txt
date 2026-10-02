@@ -1,0 +1,3 @@
+$ ibmcloud cr images
+REPOSITORY                TAG     DIGEST       CREATED      SIZE
+us.icr.io/guestbook/guestbook  v1     sha256:...  2 minutes ago  18.2 MB

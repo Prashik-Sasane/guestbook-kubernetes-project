@@ -1,0 +1,6 @@
+$ kubectl get hpa -w
+NAME             REFERENCE           TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+guestbook-hpa   Deployment/guestbook   0%/50%         0         10        0         12s
+guestbook-hpa   Deployment/guestbook   25%/50%        0         10        1         1m
+guestbook-hpa   Deployment/guestbook   40%/50%        0         10        2         2m
+guestbook-hpa   Deployment/guestbook   55%/50%        0         10        3         3m

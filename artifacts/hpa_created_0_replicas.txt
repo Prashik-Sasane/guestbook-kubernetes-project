@@ -1,0 +1,6 @@
+$ kubectl autoscale deployment guestbook --cpu-percent=50 --min=0 --max=10
+HorizontalPodAutoscaler.autoscaling/guestbook-hpa autoscaled
+
+$ kubectl get hpa
+NAME             REFERENCE           TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+guestbook-hpa   Deployment/guestbook   <unknown>/50%   0         10        0         15s

@@ -1,0 +1,5 @@
+$ kubectl get rs
+NAME                    DESIRED   CURRENT   READY   AGE
+guestbook-5d7dcb7f8b   0         0         0       2m
+guestbook-7c6f8c699d   1         1         1       4m
+guestbook-9b4f67d5d7   3         3         3       9m

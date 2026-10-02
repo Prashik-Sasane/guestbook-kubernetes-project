@@ -1,0 +1,6 @@
+$ kubectl rollout history deployment/guestbook
+deployment.apps/guestbook
+REVISION  CHANGE-CAUSE
+1         Initial deployment with Guestbook title and CPU request 100m
+2         Updated image to v2 and changed HTML title to Guestbook – v2; CPU target adjusted to 50%
+3         Rollback to previous stable revision after CPU pressure spike
