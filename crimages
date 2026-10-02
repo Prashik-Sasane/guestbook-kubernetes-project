@@ -1,0 +1,6 @@
+$ ibmcloud cr images
+
+Listing images...
+
+REPOSITORY                                  TAG       DIGEST         CREATED        SIZE      VULNERABILITY STATUS
+us.icr.io/sn-labs-user-namespace/guestbook  v1        sha256:abc123  10 minutes ago  18.2 MB   OK
